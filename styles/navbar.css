@@ -7,6 +7,11 @@ nav{
 nav img{
     float: left;
     margin: 20px;
+    filter: invert(0);
+    transition: filter 0.2s ease-out;
+}
+nav img:hover{
+    filter: invert(1);
 }
 nav ul{
     float: right;
