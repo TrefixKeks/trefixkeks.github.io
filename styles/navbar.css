@@ -23,7 +23,7 @@ nav li{
 }
 nav li a{
     font-size: 24px;
-    color: #333;
+    color: #000;
     text-decoration: none;
     transition: color 0.2s ease-out;
 }
