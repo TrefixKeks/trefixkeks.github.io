@@ -1,0 +1,46 @@
+.body{
+	background-color: #929292;
+	text-align: center;
+	color: #ffffff;
+	font-family: Arial;
+}
+.body p{
+	font-size: 20px;
+}
+.bild{
+	border-radius: 90px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 500px;
+	height: 500px;
+}
+.bild2{
+	border-radius: 90px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 375px;
+	height: 666px;
+}
+.button{
+	background: #72d745;
+    	color: white;
+    	font-size: 30px;
+    	border-radius: 20px;
+    	display: block;
+    	text-align: center;
+    	width: 300px;
+    	padding: 20px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	text-decoration: none;
+    	transition: border-radius 0.2s ease-out;
+}
+.button:hover{
+	border-radius: 30px;
+}
+
+.footer li{
+	text-decoration: false;
+}

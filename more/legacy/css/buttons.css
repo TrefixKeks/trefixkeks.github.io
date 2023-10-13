@@ -1,0 +1,128 @@
+.buttons{
+    background: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition: border-radius 0.1s ease-out;
+}
+.buttons:hover{
+border-radius: 30px;
+}
+
+
+.ttt{
+background: linear-gradient(to right, red, blue);
+color: white;
+font-size: 30px;
+border-radius: 20px;
+display: block;
+text-align: center;
+width: 300px;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+text-decoration: none;
+transition: border-radius 0.1s ease-out;
+}
+.ttt:hover{
+border-radius: 30px;
+}
+
+.chess{
+background: linear-gradient(to right, black, white);
+color: white;
+font-size: 30px;
+border-radius: 20px;
+display: block;
+text-align: center;
+width: 300px;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+text-decoration: none;
+transition: border-radius 0.1s ease-out;
+}
+.chess:hover{
+border-radius: 30px;
+}
+
+.ttts{
+    background: blue;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition: border-radius 0.1s ease-out;
+}
+.ttts:hover{
+    border-radius: 30px;
+}
+
+#reset{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: border-radius 0.1s ease-out;
+}
+#reset:hover{
+    border-radius: 15px;
+}
+
+.esc{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    position: absolute; bottom: 0; right: 0;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-radius 0.1s ease-out;
+}
+.esc:hover{
+    border-radius: 15px;
+}
+
+.update{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    position: absolute; bottom: 0; left: 0;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-radius 0.1s ease-out;
+}
+.update:hover{
+    border-radius: 15px;
+}

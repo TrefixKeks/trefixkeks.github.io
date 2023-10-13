@@ -1,0 +1,83 @@
+body{
+    background-color: #808080;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body h1{
+    font-size: 60px;
+}
+.display{
+    margin: 10px;
+    font-size: 25px;
+}
+.hide{
+    display: none;
+}
+.container{
+    background-image: url(../img/tttfield.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    min-width: 300px;
+    max-width: 300px;
+}
+.tile{
+    border: 0px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.playerX{
+    color: blue;
+}
+.playerO{
+    color: red;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.announcer{
+    text-align: center;
+}
+#reset{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: border-radius 0.1s ease-out;
+}
+#reset:hover{
+    border-radius: 15px;
+}
+.esc{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    position: absolute; bottom: 0; right: 0;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-radius 0.1s ease-out;
+}
+.esc:hover{
+    border-radius: 15px;
+}

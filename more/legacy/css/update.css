@@ -1,0 +1,7 @@
+body ul{
+    list-style-type:none;
+    font-size: 20px
+}
+body ul li{
+    margin: 20px;
+}
